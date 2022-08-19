@@ -55,6 +55,7 @@ func (m *Manifests) Dependencies() []asset.Asset {
 		&installconfig.ClusterID{},
 		&installconfig.InstallConfig{},
 		&Ingress{},
+		&Insights{},
 		&DNS{},
 		&Infrastructure{},
 		&Networking{},
@@ -75,6 +76,7 @@ func (m *Manifests) Dependencies() []asset.Asset {
 // Generate generates the respective operator config.yml files
 func (m *Manifests) Generate(dependencies asset.Parents) error {
 	ingress := &Ingress{}
+	insights := &Insights{}
 	dns := &DNS{}
 	network := &Networking{}
 	infra := &Infrastructure{}
@@ -111,6 +113,7 @@ func (m *Manifests) Generate(dependencies asset.Parents) error {
 	m.FileList = append(m.FileList, m.generateBootKubeManifests(dependencies)...)
 
 	m.FileList = append(m.FileList, ingress.Files()...)
+	m.FileList = append(m.FileList, insights.Files()...)
 	m.FileList = append(m.FileList, dns.Files()...)
 	m.FileList = append(m.FileList, network.Files()...)
 	m.FileList = append(m.FileList, infra.Files()...)

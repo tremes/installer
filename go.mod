@@ -44,7 +44,7 @@ require (
 	github.com/metal3-io/baremetal-operator/apis v0.0.0
 	github.com/metal3-io/baremetal-operator/pkg/hardwareutils v0.0.0
 	github.com/nutanix-cloud-native/prism-go-client v0.2.0
-	github.com/openshift/api v0.0.0-20220504105152-6f735e7109c8
+	github.com/openshift/api v0.0.0-20220818171529-0d6dbfdf392b
 	github.com/openshift/client-go v0.0.0-20211209144617-7385dd6338e3
 	github.com/openshift/cloud-credential-operator v0.0.0-20200316201045-d10080b52c9e
 	github.com/openshift/cluster-api-provider-baremetal v0.0.0-20220408122422-7a548effc26e
@@ -69,19 +69,19 @@ require (
 	golang.org/x/crypto v0.0.0-20220214200702-86341886e292
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
-	golang.org/x/sys v0.0.0-20220422013727-9388b58f7150
+	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10
 	google.golang.org/api v0.44.0
 	google.golang.org/genproto v0.0.0-20220107163113-42d7afdf6368
 	google.golang.org/grpc v1.46.0
 	gopkg.in/ini.v1 v1.66.2
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.24.0
+	k8s.io/api v0.24.4
 	k8s.io/apiextensions-apiserver v0.24.0
-	k8s.io/apimachinery v0.24.0
+	k8s.io/apimachinery v0.24.4
 	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/klog v1.0.0
-	k8s.io/klog/v2 v2.60.1
-	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
+	k8s.io/klog/v2 v2.70.1
+	k8s.io/utils v0.0.0-20220812165043-ad590609e2e5
 	sigs.k8s.io/cluster-api-provider-openstack v0.0.0
 	sigs.k8s.io/controller-tools v0.8.0
 	sigs.k8s.io/yaml v1.3.0
@@ -108,8 +108,8 @@ require (
 	k8s.io/component-base v0.24.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
 	sigs.k8s.io/controller-runtime v0.11.0 // indirect
-	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
+	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 require (
@@ -140,7 +140,7 @@ require (
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/fatih/color v1.12.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
-	github.com/go-logr/logr v1.2.2 // indirect
+	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-openapi/analysis v0.21.2 // indirect
 	github.com/go-openapi/errors v0.20.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
@@ -194,7 +194,7 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/satori/go.uuid v1.2.0 // indirect
-	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4 // indirect
+	golang.org/x/net v0.0.0-20220812174116-3211cb980234 // indirect
 )
 
 // OpenShift Forks
